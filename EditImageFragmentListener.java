@@ -1,9 +1,9 @@
-package com.example.mypc.androidinstagramfilter.Interface;
+package com.example.mca.androidinstagramfilters.Interface;
 
-public interface EditImageFragmentListener {
+public interface EditImageFragmentListener  {
     void onBrightnessChanged(int brightness);
     void onSaturationChanged(float saturation);
-    void onConstraintChanged(float constrant);
+    void onConstrantChanged(float constrant);
     void onEditStarted();
     void onEditCompleted();
 }

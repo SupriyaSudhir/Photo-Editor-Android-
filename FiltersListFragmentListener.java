@@ -1,7 +1,9 @@
-package com.example.mypc.androidinstagramfilter.Interface;
+package com.example.mca.androidinstagramfilters.Interface;
 
-import android.widget.Filter;
+import com.zomato.photofilters.imageprocessors.Filter;
 
 public interface FiltersListFragmentListener {
-    void onFilterSelected(Filter filter);
+
+        void onFilterSelected(Filter filter);
+
 }

@@ -5,18 +5,16 @@
     android:layout_height="match_parent"
     tools:context=".FiltersListFragment">
 
-   <android:support.v7.widget.RecycleView
-       android:id="@+id/recycler_view"
-       android:layout_gravity="center_vertical"
-       android:padding="4dp"
-       android:scrollbars="none"
-       android:clipChildren="false"
-       android:layout_width="match_parent"
-       android:layout_height="wrap_content"
-       >
 
-
-
-   </android:support.v7.widget.RecycleView>
+     <!-- to display the filters in horizontal list along with recyclerview[list wise] and to preview the filter effect -->
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_gravity="center_vertical"
+        android:padding="4dp"
+        android:scrollbars="none"
+        android:clipChildren="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </android.support.v7.widget.RecyclerView>
 
 </FrameLayout>

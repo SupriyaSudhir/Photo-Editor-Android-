@@ -5,6 +5,7 @@
     android:layout_width="wrap_content"
     android:layout_height="match_parent">
 
+    <!--  for displaying the filtername and thumbnail image -->
     <TextView
         android:id="@+id/filter_name"
         android:text="FILTER NAME"
